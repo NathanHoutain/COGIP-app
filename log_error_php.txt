@@ -1,0 +1,40 @@
+[28-Aug-2018 13:57:25 UTC] PHP Notice:  Undefined variable: resultat in /Applications/MAMP/htdocs/societes.php on line 44
+[28-Aug-2018 13:57:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /Applications/MAMP/htdocs/societes.php:44
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/societes.php on line 44
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: nom in /Applications/MAMP/htdocs/societes.php on line 46
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: pays in /Applications/MAMP/htdocs/societes.php on line 47
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: TVA in /Applications/MAMP/htdocs/societes.php on line 48
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: adresse in /Applications/MAMP/htdocs/societes.php on line 49
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: tel in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: nom in /Applications/MAMP/htdocs/societes.php on line 46
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: pays in /Applications/MAMP/htdocs/societes.php on line 47
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: TVA in /Applications/MAMP/htdocs/societes.php on line 48
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: adresse in /Applications/MAMP/htdocs/societes.php on line 49
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: tel in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: nom in /Applications/MAMP/htdocs/societes.php on line 46
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: pays in /Applications/MAMP/htdocs/societes.php on line 47
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: TVA in /Applications/MAMP/htdocs/societes.php on line 48
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: adresse in /Applications/MAMP/htdocs/societes.php on line 49
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: tel in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: nom in /Applications/MAMP/htdocs/societes.php on line 46
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: pays in /Applications/MAMP/htdocs/societes.php on line 47
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: TVA in /Applications/MAMP/htdocs/societes.php on line 48
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: adresse in /Applications/MAMP/htdocs/societes.php on line 49
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: tel in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: nom in /Applications/MAMP/htdocs/societes.php on line 46
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: pays in /Applications/MAMP/htdocs/societes.php on line 47
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: TVA in /Applications/MAMP/htdocs/societes.php on line 48
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: adresse in /Applications/MAMP/htdocs/societes.php on line 49
+[28-Aug-2018 13:57:48 UTC] PHP Notice:  Undefined index: tel in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:26 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:26 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:26 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:26 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:26 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
