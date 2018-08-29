@@ -28,11 +28,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Sociétés</title>
 </head>
 <body>
 
-<h1>Détail sociétés</h1>
+<h1>Page sociétés</h1>
     <table>
         <tr>
             <th>Nom</th>
@@ -48,6 +50,7 @@
             <td><?= $societe['societe_pays']; ?></td>
             <td><?= $societe['societe_tel']; ?></td> 
             <td><?= $societe['societe_tva']; ?></td>
+            <td><button type="submit" class="btn"><i class="far fa-trash-alt"></i></button>
         </tr>
         <?php } ?>
     </table>
