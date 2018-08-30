@@ -1,8 +1,8 @@
 <?php
 
 switch ($_GET["page"]) {
-	case 'user':
-		require "controllers/user.controller.php";
+	case 'factures':
+		require "controller/factures.controller.php";
 		break;
 
 	default:
@@ -10,8 +10,5 @@ switch ($_GET["page"]) {
 	echo "Home page";
 		break;
 }
-
-
-
 
 ?>
