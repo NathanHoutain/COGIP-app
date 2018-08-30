@@ -18,12 +18,30 @@
         // En cas d'erreur, on affiche un message et on arrête tout
             die('Erreur : '.$e->getMessage());
     }
-    $societes = $bdd->query('SELECT * FROM societes ORDER BY societe_nom ASC')
+    $societes = $bdd->query('SELECT * FROM societes ORDER BY societe_nom ASC');
     
+    //DELETE AN ELEMENT
+    if(isset($_POST['id'])) $id=intval($_POST['id']);
+    if(isset($_POST['trash_button'])){
+    var_dump($_POST);
+    $trash_button = $_POST['trash_button'];
+    var_dump($trash_button);
+}
+    
+    
+
+    // foreach($trash_button as $trash){
+    //     $del_row = 'DELETE FROM societes WHERE societe_id = ?';
+    //     $q = $this->pdo->prepare($del_row);
+    //     return $q->execute([':trash_button' => $trash]);
+    // }
+
+//     $stmt = $conn->prepare('DELETE FROM contacts WHERE contact_id = ?');
+// $stmt->execute([$id]);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,7 +68,11 @@
             <td><?= $societe['societe_pays']; ?></td>
             <td><?= $societe['societe_tel']; ?></td> 
             <td><?= $societe['societe_tva']; ?></td>
-            <td><button type="submit" class="btn"><i class="far fa-trash-alt"></i></button>
+            <td>
+                <form method="post" action="societe-delete.php">
+                    <button type="submit" class="btn btn-light" name="trash_button" value="<?php echo $societe['societe_id'];?>"><i class="far fa-trash-alt"></i></button>
+                </form>
+            </td>
         </tr>
         <?php } ?>
     </table>

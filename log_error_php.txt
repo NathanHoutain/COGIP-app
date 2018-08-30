@@ -38,3 +38,55 @@ Stack trace:
 [28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
 [28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
 [28-Aug-2018 14:05:37 UTC] PHP Notice:  Undefined index: societe_tel  in /Applications/MAMP/htdocs/societes.php on line 50
+[29-Aug-2018 08:31:49 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 24
+[29-Aug-2018 08:31:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 26
+[29-Aug-2018 09:26:01 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 24
+[29-Aug-2018 09:26:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 27
+[29-Aug-2018 10:06:57 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 24
+[29-Aug-2018 10:06:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 27
+[29-Aug-2018 10:09:20 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 24
+[29-Aug-2018 10:09:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 27
+[29-Aug-2018 10:10:44 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 24
+[29-Aug-2018 10:10:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 26
+[29-Aug-2018 10:13:28 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 24
+[29-Aug-2018 10:13:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 26
+[29-Aug-2018 10:24:53 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 24
+[29-Aug-2018 10:24:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 27
+[29-Aug-2018 10:28:39 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 25
+[29-Aug-2018 10:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 28
+[29-Aug-2018 11:50:59 UTC] PHP Notice:  Undefined variable: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 11:50:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 11:51:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 12:38:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 12:38:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 12:38:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 12:55:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 12:55:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 30
+[29-Aug-2018 13:51:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[29-Aug-2018 13:51:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[29-Aug-2018 13:51:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[29-Aug-2018 13:51:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[29-Aug-2018 13:51:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[29-Aug-2018 13:51:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 07:42:51 UTC] PHP Notice:  Undefined variable: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 07:42:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 08:17:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 37
+[30-Aug-2018 08:17:01 UTC] PHP Notice:  Undefined variable: conn in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 43
+[30-Aug-2018 08:17:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/COGIP-app/societes.php:43
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 43
+[30-Aug-2018 08:40:54 UTC] PHP Notice:  Undefined variable: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 37
+[30-Aug-2018 08:40:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 37
+[30-Aug-2018 08:41:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 37
+[30-Aug-2018 12:50:33 UTC] PHP Notice:  Undefined variable: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:50:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:50:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:50:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:50:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:50:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:56:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:57:35 UTC] PHP Notice:  Undefined variable: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:57:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:58:39 UTC] PHP Notice:  Undefined variable: trash_button in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
+[30-Aug-2018 12:58:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/COGIP-app/societes.php on line 31
