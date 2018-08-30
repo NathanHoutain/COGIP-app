@@ -191,8 +191,57 @@ h6 {
     font-weight: 700;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .clearfix {
     clear: both;
+}
+
+.contacts-bg {
+    background-color: #648796;
+}
+
+.contacts-text {
+    color: #648796;
+}
+
+.companies-bg {
+    background-color: #94d259;
+}
+
+.companies-text {
+    color: #94d259;
+}
+
+.bills-bg {
+    background-color: #23cbe5;
+}
+
+.bills-text {
+    color: #23cbe5;
+}
+
+.clients-bg {
+    background-color: #c35ed0;
+}
+
+.clients-text {
+    color: #c35ed0;
+}
+
+.providers-bg {
+    background-color: #7A1E85;
+}
+
+.providers-text {
+    color: #7A1E85;
+}
+
+.secondary-color,
+a.secondary-color {
+    color: #dcdcdc;
 }
 
 
@@ -219,8 +268,76 @@ form select {
 
 /* 3.1 General */
 
+#titles h1 {
+    font-size: 4em;
+    width: 100%;
+}
+
+#titles h2 {
+    font-size: 3em;
+    width: 100%;
+}
+
 
 /* 3.2 Nav */
+
+#adminMenu {
+    background-color: #24343c;
+    color: #dcdcdc;
+    padding-top: 2em;
+}
+
+#adminMenu a {
+    color: #dcdcdc;
+}
+
+#adminMenu a:hover {
+    color: #fff;
+}
+
+#adminMenu .userName {
+    font-size: 2em;
+}
+
+#adminMenu .userRole {
+    text-align: right;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-right: 4em;
+    font-size: 1.2em;
+}
+
+#adminMenu #adminNav ul li a i {
+    width: 60px;
+    font-size: 1.5em;
+    /* margin-right: 10px; */
+    color: #32cbe3;
+}
+
+#adminMenu #adminNav ul li {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    /* text-transform: uppercase; */
+    margin: 10px 0;
+}
+
+#adminMenu #adminNav ul li a {
+    height: 100%;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+#adminMenu #adminNav ul li.hasSub {
+    margin: 0;
+}
+
+#adminMenu #adminNav ul li.hasSub ul {
+    margin-left: 60px;
+}
+
+#adminMenu #adminNav ul li.hasSub ul li {
+    font-size: 1em;
+}
 
 
 /*
@@ -229,11 +346,85 @@ form select {
 
 */
 
+#adminContent {
+    border-top: 1px solid #24343c;
+}
+
+#adminContent .sectionTitle {
+    margin: 20px;
+    font-size: 2em;
+    display: inline-block;
+}
+
+#adminContent .addButton {
+    /* float: right; */
+    margin: 20px;
+    font-size: 2em
+}
+
+#adminContent table thead {
+    background-color: #24343c;
+    color: #dcdcdc;
+}
+
+#adminContent table td a.elementAction {
+    margin: 0 10px;
+}
+
 
 /* 4.1 General */
 
 
 /* 4.2 Index */
+
+#welcomeMsg {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.dashboardMainLink {
+    padding: 15px;
+    color: #aaa;
+}
+
+.dashboardMainLink .clients-bg {
+    margin-bottom: 2em;
+}
+
+.dashboardMainLink a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.dashboardMainLink div {
+    padding: 15px;
+}
+
+.dashboardMainLink h3 {
+    font-size: 2em;
+}
+
+.dashboardMainLink .nbElements {
+    font-size: 1em;
+}
+
+.dashboardMainLink .nbElements span {
+    font-size: 3em;
+    display: block;
+    padding-right: 10px;
+}
+
+.last5Items {
+    margin-top: 2em;
+}
+
+.last5Items h3 {
+    margin-bottom: 1em;
+}
+
+.last5Items ul {
+    margin-bottom: 2em;
+}
 
 
 /*
