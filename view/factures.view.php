@@ -32,7 +32,7 @@
   ?>
 
   	<h1></h1>
-  	<form action="factures.php" method="post">
+  	<form action="#" method="post">
   		<div>
   			<label for="facture_numero">Numero</label>
   			<input type="text" name="facture_numero" value="">
@@ -61,10 +61,10 @@
   		<button type="submit" name="submit">Ajouter</button>
   </form>
 
-  <form method="post" action="factures.controller.php">
+  <!-- <form method="post" action="factures.controller.php">
       <button type="submit" class="btn btn-light" name="trash_button" value="<?php echo $data['facture_id'];?>"><i class="far fa-trash-alt"></i></button>
-  </form>
-
-
+  </form> -->
 
 </table>
+</body>
+</html>
