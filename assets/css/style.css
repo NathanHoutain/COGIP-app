@@ -193,6 +193,7 @@ h6 {
 
 a:hover {
     text-decoration: none;
+    transition: color 1s;
 }
 
 .clearfix {
@@ -253,6 +254,42 @@ form select {
     appearance: none;
 }
 
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input {
+    margin-bottom: 1em;
+}
+
+form input[type=submit] {
+    margin: 0 1em;
+}
+
+form input[type=text],
+form input[type=email] {
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    outline: none;
+    /* padding: 3px 0px 3px 3px; */
+    /* margin: 5px 1px 3px 0px; */
+    border: 1px solid #dcdcdc;
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus {
+    box-shadow: 0 0 5px rgba(50, 203, 227, 1);
+    /* padding: 3px 0px 3px 3px; */
+    /* margin: 5px 1px 3px 0px; */
+    border: 1px solid rgba(50, 203, 227, 1);
+}
+
+form .formSubmitOptions {
+    margin: 1em;
+}
+
 
 /* 2.3 Buttons */
 
@@ -271,6 +308,7 @@ form select {
 #titles h1 {
     font-size: 4em;
     width: 100%;
+    margin: 0.5em 0;
 }
 
 #titles h2 {
@@ -293,6 +331,7 @@ form select {
 
 #adminMenu a:hover {
     color: #fff;
+    transition: color 1s;
 }
 
 #adminMenu .userName {
@@ -362,6 +401,15 @@ form select {
     font-size: 2em
 }
 
+#adminContent .entryActions {
+    display: inline;
+}
+
+#adminContent .entryActions a {
+    margin: 20px;
+    font-size: 2em
+}
+
 #adminContent table thead {
     background-color: #24343c;
     color: #dcdcdc;
@@ -374,17 +422,23 @@ form select {
 
 /* 4.1 General */
 
+.detailLabel {
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
 
 /* 4.2 Index */
 
 #welcomeMsg {
     font-size: 2em;
-    margin-bottom: 2em;
+    margin: 1em 0 2em;
 }
 
 .dashboardMainLink {
     padding: 15px;
-    color: #aaa;
+    color: #dcdcdc;
 }
 
 .dashboardMainLink .clients-bg {
@@ -392,7 +446,7 @@ form select {
 }
 
 .dashboardMainLink a {
-    color: #aaa;
+    color: #dcdcdc;
     text-decoration: none;
 }
 
@@ -406,6 +460,7 @@ form select {
 
 .dashboardMainLink .nbElements {
     font-size: 1em;
+    margin-top: 1em;
 }
 
 .dashboardMainLink .nbElements span {
@@ -432,3 +487,18 @@ form select {
 *  5.0 Footer
 
 */
+
+#mainFooter {
+    text-align: center;
+}
+
+#mainFooter #footerSlogan {
+    font-size: 2em;
+    margin: 1em 0;
+    color: #32cbe3;
+    font-weight: 700;
+}
+
+#mainFooter #copyright {
+    padding-bottom: 10px;
+}

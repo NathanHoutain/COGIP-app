@@ -1,8 +1,8 @@
             </div><!-- end of adminContent -->
         </div><!-- end of row mainContent -->
         <footer id="mainFooter">
-            <p>Vive la COGIP !</p>
-            <p id="copyright">© <?php echo $year; ?> - Developed by Sean Matthews</p>
+            <p id="footerSlogan">Vive la COGIP !</p>
+            <p id="copyright">© 2018 - Developed by BeCode octocats</p>
         </footer>
     </div><!-- end of wrapper -->
     <script src="assets/js/jquery-1.12.3.js"></script>

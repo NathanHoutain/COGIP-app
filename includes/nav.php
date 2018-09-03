@@ -13,6 +13,7 @@
                 </ul>
             </li>
             <li><a href="bills.php"><i class="fas fa-file-invoice-dollar"></i>Bills</a></li>
+            <li><a href="bills.php"><i class="fas fa-power-off"></i>Se déconnecter</a></li>
         </ul>
     </nav>
 </div>

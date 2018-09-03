@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "Contacts";
 require_once('includes/header.php');
 require_once('includes/db-connect.php');
 require_once('repositories/contact-repository.php');
@@ -17,15 +18,15 @@ $contactEmail = $contact['contact_email'];
 
 ?>
 
-<h2><?= $contactName ?></h2>
+<h2 class="sectionTitle"><?= $contactName ?></h2>
 <div class="entryActions">
     <a href="contact-edit.php?id=<?= $contactId ?>"><i class="fas fa-pen"></i></a>
     <a href="contact-delete.php?id=<?= $contactId ?>"><i class="fas fa-trash"></i></a>
 </div>
 <p>
-    <?= $contactCompany ?><br>
-    <?= $contactTel ?><br>
-    <?= $contactEmail ?>
+    <span class="detailLabel">Société : </span><?= $contactCompany ?><br>
+    <span class="detailLabel">Téléphone : </span><?= $contactTel ?><br>
+    <span class="detailLabel">Email : </span><?= $contactEmail ?>
 </p>
 <a href="contacts.php">Retour à la liste</a>
 

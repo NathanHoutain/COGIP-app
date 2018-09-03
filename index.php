@@ -1,6 +1,10 @@
 <?php
 $pageTitle = "Dashboard";
-include('includes/header.php')
+include('includes/header.php');
+require_once('includes/db-connect.php');
+require_once('repositories/contact-repository.php');
+$lastContacts = getLastContacts($conn,5);
+var_dump($lastContacts);
 
 ?>
 
@@ -57,13 +61,40 @@ include('includes/header.php')
 <div class="row border-top">
     <div id="last5Contacts" class="col-12 last5Items">
         <h3>Les 5 dernières entrées dans Contacts</h3>
-        <ul class="list-group">
+        <!-- <ul class="list-group">
             <li class="list-group-item"><a href="">5</a></li>
             <li class="list-group-item"><a href="">4</a></li>
             <li class="list-group-item"><a href="">3</a></li>
             <li class="list-group-item"><a href="">2</a></li>
             <li class="list-group-item"><a href="">1</a></li>
-        </ul>
+        </ul> -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Nom complet</th>
+                    <th scope="col">Société</th>
+                    <th scope="col">Téléphone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                    foreach ($lastContacts as $row) {
+                        echo '<tr>';
+                        echo '<td><a href="contact-details.php?id=' . $row['contact_id'] . '">' . $row['contact_prenom'] . ' ' . $row['contact_nom'] . '</a></td>';
+                        echo '<td>' . $row['societe_nom'] . '</td>';
+                        echo '<td>' . $row['contact_email'] . '</td>';
+                        echo '<td>' . $row['contact_tel'] . '</td>';
+                        echo '<td>';
+                        echo '<a class="elementAction" href="contact-edit.php?id=' . $row['contact_id'] . '"><i class="fas fa-pen"></i></a>';
+                        echo '<a class="elementAction" href="contact-delete.php?id=' . $row['contact_id'] . '"><i class="fas fa-trash"></i></a>';
+                        echo '</td>';
+                        echo '</tr>';
+                    }
+                ?>
+            </tbody>
+        </table>
     </div>
 </div>
 <div class="row border-top">

@@ -1,7 +1,8 @@
 <?php
-if(isset($_POST['contact_edit_submit'])){
-    var_dump($_POST);
-}
+$pageTitle = "Contacts";
+// if(isset($_POST['contact_edit_submit'])){
+//     var_dump($_POST);
+// }
 require_once('includes/header.php');
 require_once('includes/db-connect.php');
 require_once('repositories/contact-repository.php');
@@ -10,7 +11,7 @@ require_once('repositories/company-repository.php');
 if(isset($_GET['id'])) {
     $id = intval($_GET['id']);
     $contact = getContactById($conn,$id);
-    var_dump($contact);
+    // var_dump($contact);
     $contactId = $contact['contact_id'];
     $contactFirstName = $contact['contact_prenom'];
     $contactSurname = $contact['contact_nom'];
@@ -27,12 +28,12 @@ if(isset($_GET['id'])) {
 
 ?>
 
-<h2>
+<h2 class="sectionTitle">
     <?php
         if(isset($_GET['id'])) {
             echo $contactName . ' - Modifier';
         } else {
-            echo 'Contact - Ajouter';
+            echo 'Ajouter un contact';
         }
     ?>
 </h2>
@@ -66,6 +67,7 @@ if(isset($_GET['id'])) {
         <?php /* <option value="<?= $contactCompanyId ?>"><?= $contactCompany ?></option> */?>
     </select>
     <!-- <input class="btn-danger" type="submit" value="contact_edit_cancel" name="contact_edit_cancel" id="contact_edit_cancel"> -->
+    <fieldset class="formSubmitOptions">
     <?php
     if(!isset($_GET['id'])) {
     ?>
@@ -79,6 +81,7 @@ if(isset($_GET['id'])) {
     <?php
     }
     ?>
+    </fieldset>
 </form>
 
 <?php

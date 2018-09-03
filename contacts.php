@@ -49,8 +49,8 @@ $contacts = getAllContactsWCompany($conn);
                         echo '<td>' . $row['contact_email'] . '</td>';
                         echo '<td>' . $row['contact_tel'] . '</td>';
                         echo '<td>';
-                        echo '<a class="elementAction" href="contact-edit.php?id=' . $contactId . '"><i class="fas fa-pen"></i></a>';
-                        echo '<a class="elementAction" href="contact-delete.php?id=' . $contactId . '"><i class="fas fa-trash"></i></a>';
+                        echo '<a class="elementAction" href="contact-edit.php?id=' . $row['contact_id'] . '"><i class="fas fa-pen"></i></a>';
+                        echo '<a class="elementAction" href="contact-delete.php?id=' . $row['contact_id'] . '"><i class="fas fa-trash"></i></a>';
                         echo '</td>';
                         echo '</tr>';
                     }
