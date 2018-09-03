@@ -1,16 +1,32 @@
 <?php
+session_start();
 $pageTitle = "Dashboard";
 include('includes/header.php');
 require_once('includes/db-connect.php');
 require_once('repositories/contact-repository.php');
 $lastContacts = getLastContacts($conn,5);
-var_dump($lastContacts);
+if(isset($_SESSION['currentUser'])){
+    $user = $_SESSION['currentUser'];
+}else {
+    echo '<script type="text/javascript">
+            window.location = "http://localhost:8888/COGIP-app/login.php";
+            exit();
+        </script>';
+    die;
+}
+// var_dump($lastContacts);
+$options = [
+    'cost' => 12,
+];
+// $password = password_hash('Ranu', PASSWORD_BCRYPT, $options);
+// echo $password;
+// var_dump($_SESSION);
 
 ?>
 
 <div class="row justify-content-center">
     <div class="col-12 text-center">
-        <p id="welcomeMsg">Hello Prénom Nom ! Bienvenue dans l'administration de la COGIP !!</p>
+        <p id="welcomeMsg">Hello <?php echo $user['user_prenom']; ?> ! Bienvenue dans l'administration de la COGIP !!</p>
     </div>
 </div>
 

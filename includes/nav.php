@@ -13,7 +13,13 @@
                 </ul>
             </li>
             <li><a href="bills.php"><i class="fas fa-file-invoice-dollar"></i>Bills</a></li>
-            <li><a href="bills.php"><i class="fas fa-power-off"></i>Se déconnecter</a></li>
+            <?php
+            if(isset($_SESSION['currentUser'])){
+            ?>
+            <li><a href="logout.php"><i class="fas fa-power-off"></i>Se déconnecter</a></li>
+            <?php
+            }
+            ?>
         </ul>
     </nav>
 </div>

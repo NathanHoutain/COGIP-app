@@ -8,6 +8,11 @@ if(isset($_GET['id'])) {
     deleteContact($conn,$id);
     // header("Location: http://localhost:8888/COGIP-app/contacts.php");
     // die();
+    echo '<script type="text/javascript">
+        window.location = "http://localhost:8888/COGIP-app/contacts.php";
+        exit();
+        </script>';
+    die;
 }
 
 ?>

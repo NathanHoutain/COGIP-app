@@ -32,9 +32,7 @@ function getContactById($conn,$id) {
 }
 
 function getLastContacts($conn,$limit) {
-    // $stmt = $conn->prepare('SELECT contacts.*, societes.societe_nom FROM contacts INNER JOIN societes ON contacts.societe_id=societes.societe_id ORDER BY contacts.contact_id DESC LIMIT ?;');
     $stmt = $conn->prepare('SELECT contacts.*, societes.societe_nom FROM contacts INNER JOIN societes ON contacts.societe_id=societes.societe_id ORDER BY contacts.contact_id DESC LIMIT '.$limit.';');
-    // var_dump($limit);
     $stmt->execute();
     $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $arr;
@@ -70,8 +68,11 @@ function deleteContact($conn,$id) {
 }
 
 function updateContact($conn,$firstname, $surname, $phone, $email, $companyId, $id) {
-    $stmt = $conn->prepare('UPDATE contact SET contact_prenom = ?, contact_nom = ?, contact_tel = ?, contact_email = ?, societe_id = ? WHERE id = ?');
+    echo '1';
+    $stmt = $conn->prepare('UPDATE contacts SET contact_prenom = ?, contact_nom = ?, contact_tel = ?, contact_email = ?, societe_id = ? WHERE contact_id = ?');
+    echo '2';
     $stmt->execute([$firstname,$surname,$phone,$email,$companyId,$id]);
+    echo '3';
 }
 
 function getContactOrderedBy($conn,$param) {

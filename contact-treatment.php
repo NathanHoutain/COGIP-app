@@ -7,7 +7,7 @@ if(isset($_POST['contact_edit_submit'])){
     $firstName = filter_var($_POST['contact_prenom'], FILTER_SANITIZE_STRING);
     $surname = filter_var($_POST['contact_nom'], FILTER_SANITIZE_STRING);
     $email = filter_var($_POST['contact_email'], FILTER_SANITIZE_EMAIL);
-    if (true === filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "Cette adresse email est valide.";
     } else {
         echo "Cette adresse email n'est pas valide.";
@@ -17,7 +17,12 @@ if(isset($_POST['contact_edit_submit'])){
     $company = filter_var($_POST['contact_company'], FILTER_SANITIZE_STRING);
 
     if($firstName != "" && $surname != "" && $email != "" && $phone != "" && $id != "" && $company != "") {
-        updateContact($conn,$firstname, $surname, $phone, $email, $companyId);
+        updateContact($conn,$firstName, $surname, $phone, $email, $company, $id);
+        echo '<script type="text/javascript">
+            window.location = "http://localhost:8888/COGIP-app/contacts.php";
+            exit();
+            </script>';
+        die;
     }
 
 }
