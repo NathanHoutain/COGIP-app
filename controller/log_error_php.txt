@@ -5,3 +5,119 @@ Stack trace:
 #1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
 #2 {main}
   thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 15
+[03-Sep-2018 09:22:03 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 15
+[03-Sep-2018 09:22:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(24): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 15
+[03-Sep-2018 09:43:58 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 15
+[03-Sep-2018 09:43:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 15
+[03-Sep-2018 09:50:07 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 09:50:53 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 09:52:39 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 09:53:56 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 09:56:10 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 09:56:37 UTC] PHP Warning:  require(model/societes.model.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 09:56:37 UTC] PHP Fatal error:  require(): Failed opening required 'model/societes.model.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 09:58:16 UTC] PHP Warning:  require(model/societes.model.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 09:58:16 UTC] PHP Fatal error:  require(): Failed opening required 'model/societes.model.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 10:06:55 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 10:07:09 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:12:29 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:12:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:13:28 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:13:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:13:44 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 10:13:47 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:13:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:15:48 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:15:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:16:35 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:16:38 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:16:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:16:41 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 10:16:44 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:16:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:17:16 UTC] PHP Warning:  require(../model/societes.model.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 10:17:16 UTC] PHP Fatal error:  require(): Failed opening required '../model/societes.model.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 10:17:46 UTC] PHP Warning:  require(../model/societes.model.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 10:17:46 UTC] PHP Fatal error:  require(): Failed opening required '../model/societes.model.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.1/lib/php') in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 12
+[03-Sep-2018 10:18:34 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 10:19:15 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(28): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 20
+[03-Sep-2018 10:28:44 UTC] PHP Notice:  Undefined index: trash_button in /Applications/MAMP/htdocs/COGIP-app/view/societes.view.php on line 46
+[03-Sep-2018 10:28:49 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 23
+[03-Sep-2018 10:28:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(30): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 23
+[03-Sep-2018 10:29:13 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 22
+[03-Sep-2018 10:29:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 22
+[03-Sep-2018 11:39:22 UTC] PHP Notice:  Undefined variable: bdd in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 22
+[03-Sep-2018 11:39:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php(29): societesPage()
+#1 /Applications/MAMP/htdocs/COGIP-app/index.php(8): require('/Applications/M...')
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/COGIP-app/controller/societes.controller.php on line 22

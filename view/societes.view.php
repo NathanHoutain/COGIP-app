@@ -45,8 +45,36 @@
         <?php }
             echo $_POST['trash_button'];
         ?>
-        
     </table>
+
+    <h2>Ajouter une société</h2>
+    <form action="" method="post">
+        <div>
+            <label for="societe_nom">Nom de la société</label>
+            <input type="text" name="societe_nom" value="">
+        </div>
+        <div>
+            <label for="societe_adresse">Adresse</label>
+            <input type="Text" name="societe_adresse" value="">
+        </div>
+        <div>
+            <label for="societe_pays">Pays</label>
+            <input type="text" name="societe_pays" value="">
+        </div>
+        <div>
+            <label for="societe_tel">N° téléphone</label>
+            <input type="text" name="societe_tel" value="">
+        </div>
+        <div>
+            <label for="societe_tva">N° TVA</label>
+            <input type="text" name="societe_tva" value="">
+        </div>
+        <div>
+            <label for="type_id">Fournisseur (1) ou client (2) ?</label>
+            <input type="number" min="1" max="2" name="type_id" value="">
+        </div>
+        <button type="submit" name="submit">Ajouter</button>
+    </form>
 
 </body>
     <style>

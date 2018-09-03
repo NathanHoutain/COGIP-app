@@ -10,6 +10,11 @@
             die('Erreur : '.$e->getMessage());
     }
 
+    $del_row = 'DELETE FROM societes WHERE societe_id = ?' ;
+    $q = $bdd->prepare($del_row);
+    $q->execute([$_POST['trash_button']]);
+    header("Refresh:0");
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +26,8 @@
     <title>Delete</title>
 </head>
 <body>
-    <?php 
+    <?php
+        echo $_POST['trash_button'];
     ?>
     
 </body>
