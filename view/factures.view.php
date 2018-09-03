@@ -17,7 +17,6 @@
    <th> Contact </th>
 
 <?php
-
   while ($data = $result->fetch())
   {?>
      <tr>
@@ -61,4 +60,5 @@
   		</div>
   		<button type="submit" name="submit">Ajouter</button>
   </form>
+
 </table>

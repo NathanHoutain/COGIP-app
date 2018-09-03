@@ -18,4 +18,6 @@ function getFactures(){
 	{
 	   die('Erreur : '.$e->getMessage());
 	}
+	return $result;
+}
 ?>
