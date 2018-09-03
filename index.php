@@ -5,8 +5,8 @@ switch ($_GET['page']) {
 		break;
 
 	default:
-		// afficher la home page
-	echo "Home page";
+	require "controller/login.controller.php";
+	break;
 		break;
 }
 

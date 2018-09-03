@@ -61,4 +61,10 @@
   		<button type="submit" name="submit">Ajouter</button>
   </form>
 
+  <form method="post" action="factures.controller.php">
+      <button type="submit" class="btn btn-light" name="trash_button" value="<?php echo $data['facture_id'];?>"><i class="far fa-trash-alt"></i></button>
+  </form>
+
+
+
 </table>

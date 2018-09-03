@@ -10,7 +10,18 @@ function facturesPage(){
 	        header("Refresh:0");
 	    }
   // delete
-  // modif 
+
+	//
+	// if(isset($_POST['id'])) $id=intval($_POST['id']);
+  //    if(isset($_POST['trash_button'])){
+  //    $trash_button = $_POST['trash_button'];
+	//  }
+	//  $del_row = 'DELETE FROM factures WHERE facture_id = ?' ;
+  //    $q = $data->prepare($del_row);
+	// 	 var_dump($data);
+  //    $q->execute([$_POST['trash_button']]);
+  //    header("Refresh:0; url=factures.view.php");
+	// modif
 
 	$result = getFactures();
 	// chargement de view
