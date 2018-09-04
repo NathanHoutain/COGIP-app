@@ -31,6 +31,16 @@ function getContactById($conn,$id) {
     return $result;
 }
 
+function getContactByCompanyId($conn,$id) {
+    // $stmt = $conn->prepare('SELECT * FROM contacts WHERE contact_id = ?');
+    $stmt = $conn->prepare('SELECT contacts.contact_id, contacts.contact_prenom, contacts.contact_nom, contacts.contact_email, contacts.contact_tel, contacts.societe_id, societes.societe_nom FROM contacts INNER JOIN societes ON contacts.societe_id=societes.societe_id WHERE societe_id = ?;');
+    $stmt->execute([$id]);
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    echo '<br>';
+    // var_dump($result);
+    return $result;
+}
+
 function getLastContacts($conn,$limit) {
     $stmt = $conn->prepare('SELECT contacts.*, societes.societe_nom FROM contacts INNER JOIN societes ON contacts.societe_id=societes.societe_id ORDER BY contacts.contact_id DESC LIMIT '.$limit.';');
     $stmt->execute();
