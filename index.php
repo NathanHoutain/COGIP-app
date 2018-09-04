@@ -1,5 +1,6 @@
 <?php
 session_start();
+$user = $_SESSION['currentUser'];
 $pageTitle = "Dashboard";
 include('includes/header.php');
 require_once('includes/db-connect.php');
@@ -49,8 +50,11 @@ switch ($_GET['page']) {
 	case 'delete-facture':
 		require "controllers/factures-delete.controller.php";
 		break;
+	case 'dashboard':
+		require "controllers/dashboard.controller.php";
+		break;
 	default:
-		require "controllers/login.controller.php";
+		require "login.php";
 		break;
 }
 include('includes/footer.php');

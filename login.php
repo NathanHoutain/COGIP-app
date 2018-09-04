@@ -1,10 +1,11 @@
 <?php
 session_start();
 $pageTitle = "Login";
-include('includes/header.php');
+if(isset($_SESSION['currentUser'])){
+    include('includes/header.php');
+}
 require_once('includes/db-connect.php');
 require_once('repositories/contact-repository.php');
-// var_dump($_SESSION);
 
 ?>
 <form action="login-treatment.php" method="post">

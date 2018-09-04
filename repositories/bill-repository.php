@@ -21,6 +21,13 @@ function getAllBillsOrdered($conn) {
     return $arr;
 }
 
+function getLastBills($conn) {
+    $stmt = $conn->prepare('SELECT factures.*, societes.societe_id, societes.societe_nom, contacts.contact_id, contacts.contact_prenom, contacts.contact_nom FROM factures INNER JOIN societes ON factures.societe_id=societes.societe_id INNER JOIN contacts ON factures.contact_id=contacts.contact_id ORDER BY facture_date DESC LIMIT 5');
+    $stmt->execute();
+    $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $arr;
+}
+
 function getBillById($conn,$id) {
     $stmt = $conn->prepare('SELECT * FROM factures WHERE facture_id = ?;');
     $stmt->execute([$id]);

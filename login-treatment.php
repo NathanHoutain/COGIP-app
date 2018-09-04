@@ -23,7 +23,7 @@ if(password_verify($password, $user['user_password'])) {
     echo 'log in. ADD TO SESSION. Redirect with message';
     $_SESSION["currentUser"] = $user;
     echo '<script type="text/javascript">
-            window.location = "http://localhost:8888/COGIP-app/index.php";
+            window.location = "http://localhost:8888/COGIP-app/index.php?page=dashboard";
             exit();
         </script>';
     die;

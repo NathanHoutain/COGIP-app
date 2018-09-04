@@ -21,6 +21,13 @@ function getCompanyById($conn,$id) {
     return $result;
 }
 
+function getLastCompanies($conn) {
+    $stmt = $conn->prepare('SELECT * FROM societes ORDER BY societe_id DESC LIMIT 5');
+    $stmt->execute();
+    $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $arr;
+}
+
 function createCompany($conn,$name, $address, $country, $phone, $tva, $type) {
     echo 'test';
     $stmt = $conn->prepare('INSERT INTO societes (societe_nom,societe_adresse,societe_pays,societe_tel,societe_tva,type_id) VALUES (?,?,?,?,?,?)');
