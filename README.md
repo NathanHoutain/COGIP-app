@@ -3,14 +3,14 @@
 
 # Objectif et situation :
 
-Exercice en groupe de 3 de la formation BeCode.org ayant pour but de tester les compétences en Git, HTML, CSS, PHP, MySQL (phpmyadmin) et le déploiement en ligne des apprenants acquises lors des semaines précédantes, ainsi que la capacité à gérer et résoudre des problèmes rencontrés collectivement.
+Exercice en groupe de 3 de la formation BeCode.org ayant pour but de tester les compétences en Git, HTML, CSS, PHP, MySQL (phpmyadmin) et déploiement en ligne des apprenants acquises lors des semaines précédantes, ainsi que la capacité à gérer et résoudre des problèmes rencontrés collectivement.
 
 ##### Apprenants : 
 Thibaut Gribaumont *(Johnson II)*, Colombe Sechehaye *(Johnson II)* et Nathan Houtain *(Johnson II)*.
 
 # Consignes :
 
-Réaliser une *web application* pour un comptable qui lui permettra de gérer les factures (ainsi que les sociétés et contacts en lien avec elles) de son entreprise avec possibilité d'édition ; ajout, suppression ou modification. Le site doit également inclure un système de sessions et d'utlisateurs avec différents droits d'accès (user, admin, superadmin). 
+Réaliser une *web application* pour un comptable qui lui permettra de gérer les factures (ainsi que les sociétés et contacts en lien avec elles) de son entreprise avec options d'édition ; ajout, suppression ou modification. Le site doit également inclure un système de sessions et d'utlisateurs avec différents droits d'accès (user, admin, superadmin). 
 
 ##### Pages à créer ; 
 
