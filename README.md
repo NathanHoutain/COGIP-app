@@ -11,16 +11,16 @@ Apprenants : Thibaut Gribaumont *(Johnson II)*, Colombe Sechehaye *(Johnson II)*
 
 Réaliser une *web application* pour un comptable qui lui permettra de gérer les factures (ainsi que les sociétés et contacts en lien avec elles) de son entreprise avec possibilité d'édition ; ajout, suppression ou modification. Le site doit également inclure un système de sessions et d'utlisateurs avec différents droits d'accès (user, admin, superadmin). 
 
-###### Pages à créer ; 
+##### Pages à créer ; 
 
-accueil
-factures
-annuaire 
-sociétés
-fournisseurs
-clients 
-detailfacture
-detailcontact
+-accueil
+-factures
+-annuaire 
+-sociétés
+-fournisseurs
+-clients 
+-detailfacture
+-detailcontact
 
 Enfin, l'application doit être déployée sur un hébergement adapté.
 
@@ -44,22 +44,22 @@ Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
 
 La réalisation du projet s'est déroulée par le partage des tâches suivant ; 
 
-###### Création des bases de données (phpmyadmin) ;  
+##### Création des bases de données (phpmyadmin) ;  
 Thibaut, Colombe, Nathan. 
 
-###### Système CRUD (Create/Read/Update/Delete avec requêtes MySQL) ;  
+##### Système CRUD (Create/Read/Update/Delete avec requêtes MySQL) ;  
 Thibaut, Colombe, Nathan.
 
-###### ReadMe ;  
+##### ReadMe ;  
 Nathan.
 
-###### Système de sessions et d'utilisateurs ;  
+##### Système de sessions et d'utilisateurs ;  
 Thibaut.
 
-###### Design (CSS);  
+##### Design (CSS);  
 Thibaut. 
 
-###### Déploiement du site en ligne ;  
+##### Déploiement du site en ligne ;  
 
 ### Commentaires sur la méthode de travail
 
