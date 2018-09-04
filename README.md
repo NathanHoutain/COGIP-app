@@ -13,21 +13,21 @@ Réaliser une *web application* pour un comptable qui lui permettra de gérer le
 
 ##### Pages à créer ; 
 
--accueil
--factures
--annuaire 
--sociétés
--fournisseurs
--clients 
--detailfacture
--detailcontact
+- accueil
+- factures
+- annuaire 
+- sociétés
+- fournisseurs
+- clients 
+- detailfacture
+- detailcontact
 
 Enfin, l'application doit être déployée sur un hébergement adapté.
 
 Lien vers les consignes officielles : https://github.com/becodeorg/Johnson2/tree/master/projets/COGIPapp
 
-### Time :
-Début : jmardi 7 juin 2018, 10h.   
+## Time :
+Début : mardi 7 juin 2018, 10h.   
 Deadline : mardi 04 septembre à 17:00.  
 Durée : 5 jours ouvrables.
 
@@ -40,7 +40,7 @@ Terminé et rendu.
 Be-Central, bureaux de BeCode.org.  
 Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
 
-## Réalisation
+# Réalisation
 
 La réalisation du projet s'est déroulée par le partage des tâches suivant ; 
 
