@@ -1,0 +1,504 @@
+/*
+Author: Thibault Gribaumont - Colombe S - Nathan Houtain
+Version: 1.0
+Last update: 28 August 2018
+Initial scale: Small laptops => 1024px - 1224px
+*/
+
+
+/*
+Table of Contents
+
+1.0 Reset
+2.0 Elements
+    2.1 General
+3.0 Header
+    3.1 General
+    3.2 Nav
+4.0 Content
+    4.1 Index
+5.0 Footer
+*/
+
+
+/*
+
+*  1.0 Reset
+
+*  http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+
+*  2.0 Elements
+
+*/
+
+
+/* 2.1 General */
+
+html {}
+
+body {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.contacts-bg {
+    background-color: #648796;
+}
+
+.contacts-text {
+    color: #648796;
+}
+
+.companies-bg {
+    background-color: #94d259;
+}
+
+.companies-text {
+    color: #94d259;
+}
+
+.bills-bg {
+    background-color: #23cbe5;
+}
+
+.bills-text {
+    color: #23cbe5;
+}
+
+.clients-bg {
+    background-color: #c35ed0;
+}
+
+.clients-text {
+    color: #c35ed0;
+}
+
+.providers-bg {
+    background-color: #7A1E85;
+}
+
+.providers-text {
+    color: #7A1E85;
+}
+
+.secondary-color,
+a.secondary-color {
+    color: #dcdcdc;
+}
+
+
+/* 2.2 Forms */
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input {
+    margin-bottom: 1em;
+}
+
+form input[type=submit] {
+    margin: 0 1em;
+}
+
+form input[type=text],
+form input[type=email] {
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    outline: none;
+    /* padding: 3px 0px 3px 3px; */
+    /* margin: 5px 1px 3px 0px; */
+    border: 1px solid #dcdcdc;
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus {
+    box-shadow: 0 0 5px rgba(50, 203, 227, 1);
+    /* padding: 3px 0px 3px 3px; */
+    /* margin: 5px 1px 3px 0px; */
+    border: 1px solid rgba(50, 203, 227, 1);
+}
+
+form .formSubmitOptions {
+    margin: 1em;
+}
+
+
+/* 2.3 Buttons */
+
+.btn-primary {}
+
+
+/*
+
+*  3.0 Header
+
+*/
+
+
+/* 3.1 General */
+
+#titles h1 {
+    font-size: 4em;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+#titles h2 {
+    font-size: 3em;
+    width: 100%;
+}
+
+
+/* 3.2 Nav */
+
+#adminMenu {
+    background-color: #24343c;
+    color: #dcdcdc;
+    padding-top: 2em;
+}
+
+#adminMenu a {
+    color: #dcdcdc;
+}
+
+#adminMenu a:hover {
+    color: #fff;
+    transition: color 1s;
+}
+
+#adminMenu .userName {
+    font-size: 2em;
+}
+
+#adminMenu .userRole {
+    text-align: right;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-right: 4em;
+    font-size: 1.2em;
+}
+
+#adminMenu #adminNav ul li a i {
+    width: 60px;
+    font-size: 1.5em;
+    /* margin-right: 10px; */
+    color: #32cbe3;
+}
+
+#adminMenu #adminNav ul li {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    /* text-transform: uppercase; */
+    margin: 10px 0;
+}
+
+#adminMenu #adminNav ul li a {
+    height: 100%;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+#adminMenu #adminNav ul li.hasSub {
+    margin: 0;
+}
+
+#adminMenu #adminNav ul li.hasSub ul {
+    margin-left: 60px;
+}
+
+#adminMenu #adminNav ul li.hasSub ul li {
+    font-size: 1em;
+}
+
+
+/*
+
+*  4.0 Content
+
+*/
+
+#adminContent {
+    border-top: 1px solid #24343c;
+}
+
+#adminContent .sectionTitle {
+    margin: 20px;
+    font-size: 2em;
+    display: inline-block;
+}
+
+#adminContent .addButton {
+    /* float: right; */
+    margin: 20px;
+    font-size: 2em
+}
+
+#adminContent .entryActions {
+    display: inline;
+}
+
+#adminContent .entryActions a {
+    margin: 20px;
+    font-size: 2em
+}
+
+#adminContent table thead {
+    background-color: #24343c;
+    color: #dcdcdc;
+}
+
+#adminContent table td a.elementAction {
+    margin: 0 10px;
+}
+
+
+/* 4.1 General */
+
+.detailLabel {
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
+
+/* 4.2 Index */
+
+#welcomeMsg {
+    font-size: 2em;
+    margin: 1em 0 2em;
+}
+
+.dashboardMainLink {
+    padding: 15px;
+    color: #dcdcdc;
+}
+
+.dashboardMainLink .clients-bg {
+    margin-bottom: 2em;
+}
+
+.dashboardMainLink a {
+    color: #dcdcdc;
+    text-decoration: none;
+}
+
+.dashboardMainLink div {
+    padding: 15px;
+}
+
+.dashboardMainLink h3 {
+    font-size: 2em;
+}
+
+.dashboardMainLink .nbElements {
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.dashboardMainLink .nbElements span {
+    font-size: 3em;
+    display: block;
+    padding-right: 10px;
+}
+
+.last5Items {
+    margin-top: 2em;
+}
+
+.last5Items h3 {
+    margin-bottom: 1em;
+}
+
+.last5Items ul {
+    margin-bottom: 2em;
+}
+
+
+/*
+
+*  5.0 Footer
+
+*/
+
+#mainFooter {
+    text-align: center;
+}
+
+#mainFooter #footerSlogan {
+    font-size: 2em;
+    margin: 1em 0;
+    color: #32cbe3;
+    font-weight: 700;
+}
+
+#mainFooter #copyright {
+    padding-bottom: 10px;
+}
