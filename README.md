@@ -48,6 +48,9 @@ La réalisation du projet s'est déroulée par le partage des tâches suivant ;
 ##### Création des bases de données (phpmyadmin) ;  
 Thibaut, Colombe, Nathan. 
 
+###### Apercu :  
+![COGIP-bdd](/assets/img/COGIP-bdd.png)
+
 ##### Système CRUD (Create/Read/Update/Delete avec requêtes MySQL) ;  
 Thibaut, Colombe, Nathan.
 
