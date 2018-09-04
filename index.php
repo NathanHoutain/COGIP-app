@@ -50,7 +50,7 @@ switch ($_GET['page']) {
 		require "controllers/factures-delete.controller.php";
 		break;
 	default:
-		require "controllers/login.controller.php";
+		require "homepage.php";
 		break;
 }
 include('includes/footer.php');
