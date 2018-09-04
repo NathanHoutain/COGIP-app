@@ -5,7 +5,8 @@
 
 Exercice en groupe de 3 de la formation BeCode.org ayant pour but de tester les compétences en Git, HTML, CSS, PHP, MySQL (phpmyadmin) et le déploiement en ligne des apprenants acquises lors des semaines précédantes, ainsi que la capacité à gérer et résoudre des problèmes rencontrés collectivement.
 
-Apprenants : Thibaut Gribaumont *(Johnson II)*, Colombe Sechehaye *(Johnson II)* et Nathan Houtain *(Johnson II)*.
+##### Apprenants : 
+Thibaut Gribaumont *(Johnson II)*, Colombe Sechehaye *(Johnson II)* et Nathan Houtain *(Johnson II)*.
 
 # Consignes :
 
@@ -40,7 +41,7 @@ Terminé et rendu.
 Be-Central, bureaux de BeCode.org.  
 Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
 
-# Réalisation
+# Réalisation :
 
 La réalisation du projet s'est déroulée par le partage des tâches suivant ; 
 
@@ -56,12 +57,12 @@ Nathan.
 ##### Système de sessions et d'utilisateurs ;  
 Thibaut.
 
-##### Design (CSS);  
+##### Design (CSS) ;  
 Thibaut. 
 
 ##### Déploiement du site en ligne ;  
 
-### Commentaires sur la méthode de travail
+## Commentaires sur la méthode de travail :
 
 Nous avons utilisé la méthode agile de gestion de projet appelée SCRUM qui consiste à réaliser quotidiennement des petites réunions ("mêlées") s'articulant sur 3 questions principales ; 
 
