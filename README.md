@@ -51,14 +51,14 @@ Thibaut, Colombe, Nathan.
 ##### Système CRUD (Create/Read/Update/Delete avec requêtes MySQL) ;  
 Thibaut, Colombe, Nathan.
 
-##### ReadMe ;  
-Nathan.
-
 ##### Système de sessions et d'utilisateurs ;  
 Thibaut.
 
 ##### Design (CSS) ;  
 Thibaut. 
+
+##### ReadMe ;  
+Nathan.
 
 ##### Déploiement du site en ligne ;  
 
