@@ -46,24 +46,25 @@ Cantersteen 12, 1000 Bruxelles (Gare de Bruxelles-Central).
 La réalisation du projet s'est déroulée par le partage des tâches suivant ; 
 
 ##### Création des bases de données (phpmyadmin) ;  
-Thibaut, Colombe, Nathan. 
+Thibaut, Colombe, Nathan
 
 ###### Apercu :  
 ![COGIP-bdd](/assets/img/COGIP-bdd.png)
 
 ##### Système CRUD (Create/Read/Update/Delete avec requêtes MySQL) ;  
-Thibaut, Colombe, Nathan.
+Thibaut, Colombe, Nathan
 
 ##### Système de sessions et d'utilisateurs ;  
-Thibaut.
+Thibaut
 
 ##### Design (CSS) ;  
-Thibaut. 
+Thibaut
 
 ##### ReadMe ;  
-Nathan.
+Nathan
 
 ##### Déploiement du site en ligne ;  
+Thibaut
 
 ## Commentaires sur la méthode de travail :
 
